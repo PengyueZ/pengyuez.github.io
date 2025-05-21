@@ -1,11 +1,11 @@
-<!-- <h3 id="publications" style="margin: 2px 0px -15px;">Working Papers</h3> -->
+<!-- <h3 id="research" style="margin: 2px 0px -15px;">Working Papers</h3> -->
 
-<h3 id="publications" style="margin: 2px 0px -15px;"></h3>
+<h3 id="research" style="margin: 2px 0px -15px;"></h3>
 
-<div class="publications">
+<div class="research">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in site.data.research.main %}
 
 <li>
 <div class="pub-row">
@@ -31,7 +31,7 @@
       {% if link.others %} 
         {{ link.others }}
       {% endif %}
-      <div id="{{ link.id }}" class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+      <div id="{{ link.id }}" class="panel" style="background-color:rgb(218, 234, 249); color: #666; padding: 10px;">
     {{ link.abstract }}
     </div>
     </div>

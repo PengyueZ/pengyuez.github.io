@@ -1,26 +1,24 @@
-<!-- <h3 id="publications" style="margin: 2px 0px -15px;">Working Papers</h3> -->
+<h3 id="wip" style="margin: 2px 0px -15px;"></h3>
 
-<h3 id="publications" style="margin: 2px 0px -15px;"></h3>
-
-<div class="publications">
+<div class="research">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in site.data.wip.main %}
 
 <li>
 <div class="pub-row">
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0px;">
       <!-- <div class="title"><a>{{ link.title }}</a></div> -->
-      <div class="title"><a href="{{ link.draft }}">{{ link.title }}</a></div>
+      <div class="title">{{ link.title }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
       {% if link.authors or link.abstract %}
         <div class="author">
-        {% if link.authors %} 
+        {% if link.authors %}
           {{ link.authors }}
         {% endif %}
-              {% if link.draft %} 
+      {% if link.draft %} 
            <a href="{{ link.draft }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Draft</a>
       {% endif %}
         {% if link.abstract %} 
@@ -45,4 +43,3 @@
 
 </ol>
 </div>
-

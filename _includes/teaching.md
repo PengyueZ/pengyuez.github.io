@@ -1,16 +1,6 @@
-## Services
-
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
-  <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
-  <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
-
-<ul style="margin:0 0 20px;">
-  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
-  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
+<ul style="2px 0px -15px; margin-left: -20px;">
+  <li><autocolor>Teaching fellow, Statistics for Economists (Graduate-level), Boston University, Fall 2021, Fall 2022</autocolor></li>
+  <li><autocolor>Teaching fellow, Macroeconomic Theory (Graduate-level), Boston University, Spring 2022, Spring 2023, Spring 2024</autocolor></li>
+  <li><autocolor>Teaching fellow, Intermediate Macroeconomic Analysis, Boston University, Summer 2022, Summer 2023, Fall 2023, Summer 2024, Fall 2024, Spring 2025</autocolor></li>
+  <li><autocolor>Teaching fellow, Financial Economics, Boston University, Fall 2024</autocolor></li>
 </ul>

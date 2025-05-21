@@ -1,22 +1,9 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - id: 1
+    title: Stock Overpricing, Managerial Incentives, and Firm Investment
+    # authors: 
+    draft: https://www.dropbox.com/scl/fi/2psxx9fksb4r6gz4xl5ph/JMP_housing_supply_Lei_Ma.pdf?rlkey=ussnk5si1wifc1hkaf85v7b3o&dl=0
+    abstract: "This paper examines how managerial compensation structures and market sentiment jointly influence managerial behavior and firm-level investment decisions. Drawing on insights from behavioral and corporate finance, it develops a theoretical framework in which managers, motivated by stock-based compensation and attentive to market expectations, may respond to over-optimistic valuations by increasing investment, even in projects with weak fundamentals, in an effort to signal firm quality. The analysis highlights how information frictions and market sentiment can lead to investment distortions when market valuations deviate from intrinsic value. This framework lays the groundwork for studying firm-level heterogeneity and its role in aggregate misallocation. It also provides a lens through which to interpret episodes of 'irrational exuberance,' such as the dot-com bubble, and offers tools for quantifying their broader macroeconomic effects."
+  
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png

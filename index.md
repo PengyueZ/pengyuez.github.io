@@ -4,20 +4,29 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I hold a Ph.D. in Economics from Boston University, with research interests in Macroeconomics, Econometrics, and Machine Learning.
+
+I'm also passionate about large language models (LLMs), computer vision, natural language processing (NLP), and generative AI, including GANs and diffusion models.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Macroeconomics:** Monetary policy, Heterogeneous agents
+- **Econometrics:** Causal inference, Machine learning applications
 
-## News
+## Research
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+### Working Papers
+
+{% include_relative _includes/research.md %}
+
+### Work in Progress
+
+{% include_relative _includes/wip.md %}
+
+## Publications
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+## Teaching
+
+{% include_relative _includes/teaching.md %}

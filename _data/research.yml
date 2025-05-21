@@ -1,22 +1,14 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
-
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - id: 1
+    title: Quantitative Easing with Heterogeneous Portfolios
+    # authors: 
+    draft: https://www.dropbox.com/scl/fi/2psxx9fksb4r6gz4xl5ph/JMP_housing_supply_Lei_Ma.pdf?rlkey=ussnk5si1wifc1hkaf85v7b3o&dl=0
+    abstract: "Quantitative Easing (QE) has been extensively employed as an unconventional monetary policy tool to stabilize financial markets and stimulate economic activity. Notably, quantitative easing re-emerged as a key policy tool during the COVID-19 pandemic. However, its effectiveness and distributional consequences hinge critically on the heterogeneity of household portfolios. This paper develops a macroeconomic model in which households differ in their asset holdings. By incorporating these differences, the analysis examines how wealth redistribution may amplify or dampen QE-induced asset price movements, and how such redistribution influences aggregate consumption and investment."
+  
+  - id: 2
+    title: Credit Shocks in a Two-Sector Economy with Leverage Heterogeneity
+    # authors: 
+    draft: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4736956
+    abstract: "This paper focuses on the macroeconomic implications of credit-supply-side financial shocks, particularly how disruptions in banks' balance sheets propagate through the broader economy. While much of the literature has emphasized credit-demand shocks, this study shifts the focus to the supply side, where financial intermediaries face constraints that limit their lending capacity. Extending the Gertler and Karadi (2011) framework, the chapter introduces a DSGE model with two sectors, aiming to capture core mechanisms behind the Great Recession. A key contribution is the analysis of how shocks originating in one sector, such as the housing sector, can transmit to other sectors through the banking system, as banks reallocate or reduce credit in response to changing risk and regulatory conditions. The model highlights how leverage heterogeneity and intersectoral linkages via financial intermediaries can amplify the macroeconomic effects of financial disruptions, offering insights into the sectoral dynamics observed during the Great Recession."
+    # others: Presented at FDIC Consumer Research Symposium (2024), Urban Economics Association European Meeting (2024)
