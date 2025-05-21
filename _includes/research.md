@@ -21,17 +21,32 @@
           {{ link.authors }}
         {% endif %}
               {% if link.draft %} 
-           <a href="{{ link.draft }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Draft</a>
+           <a href="{{ link.draft }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="margin-right: 10px; font-size:15px;">Draft</a>
       {% endif %}
         {% if link.abstract %} 
-          <button id="{{ link.id }}" onClick="reply_click()" class="accordion"> Abstract </button>
+          <button onclick="toggleAbstract({{link.id}}, this)" class="button abstract-button">[+] Abstract</button>
+      <div id={{link.id}} style="display:none; width: 80%; margin: 10px 0 10px 0; background-color: #f0f6fc; padding: 15px; border-radius: 15px;">
+      <p style="margin: 0;">
+        {{ link.abstract }}
+          </p>
+      </div>
+
+<script>
+  function toggleAbstract(id, btn) {
+    const abs = document.getElementById(id);
+    const isHidden = abs.style.display === 'none';
+  
+    abs.style.display = isHidden ? 'block' : 'none';
+    btn.textContent = isHidden ? '[-] Abstract' : '[+] Abstract';
+  }
+  </script>
         {% endif %}
         </div>
       {% endif %}
       {% if link.others %} 
         {{ link.others }}
       {% endif %}
-      <div id="{{ link.id }}" class="panel" style="background-color:rgb(218, 234, 249); color: #666; padding: 10px;">
+      <div id="{{ link.id }}" class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
     {{ link.abstract }}
     </div>
     </div>
@@ -45,4 +60,5 @@
 
 </ol>
 </div>
+
 

@@ -12,8 +12,8 @@ canonical: https://minimal-light-theme.yliu.me/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
+# google_scholar: https://scholar.google.com/
+cv_link: assets/files/CV.pdf
 github_link: https://github.com/PengyueZ
 linkedin: https://www.linkedin.com/in/pengyue-zhu-3a14a6257
 # twitter: https://twitter.com/
@@ -30,7 +30,7 @@ enable_footnote: true
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
-auto_dark_mode: true
+auto_dark_mode: false
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.

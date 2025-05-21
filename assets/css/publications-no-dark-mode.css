@@ -11,12 +11,101 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.button {
+    display: inline-block;
+    padding: 3px 8px;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .draft-button {
+    background: none;
+    border: none;
+    color: #276eea;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .abstract-button {
+    background-color: #e4f1f9; /* soft purple */
+    border: 1px solid #f7f5f5;
+  }
+  
+  .abstract-button:hover {
+    background-color: #a4e9f2;
+  }
+
 .badge {
     color: #fff !important;
     border-radius: 0.125rem;
     -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
+
+        button.accordion2 {
+            /* 12px/1.2: 1.2 is the size of the small background of abstract button */
+            font: 12px/1.2 Crimson Pro, Serif, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            cursor: pointer;
+            padding: 0px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 100%;
+            transition: 0.4s;
+            background-color: #f8f8f8;
+        }
+    
+        button.accordion {
+            font: 12px/1.2 Crimson Pro, Serif, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            cursor: pointer;
+            padding: 0px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 100%;
+            transition: 0.4s;
+            background-color: #f8f8f8;
+            color: #383737; /* color of "Abstract" */
+        }
+    
+        button.accordion.active,
+        button.accordion:hover {
+            background-color: #f8f8f8;
+        }
+    
+        button.accordion:after {
+            content: '[+]';
+            font-size: 90%; /* size of the plus sign */
+            color: #777;  /* color of the plus sign */
+            float: left;
+            margin-left: 1px;
+            margin-right:3px;
+        }
+    
+        button.accordion2:after {
+            content: '[#]';
+            font-size: 90%;
+            color: #777;
+            float: left;
+            margin-left: 1px;
+        }
+    
+        button.accordion.active:after {
+            content: "[\2212]";
+        }
+    
+        div.panel {
+            padding: 0 20px;
+            margin-top: 5px;
+            display: none;
+            background-color: white;
+            font-size: 100%;
+        }
+    
+        div.panel.show {
+            display: block !important;
+        }
 
 :root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #002D72; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
 
@@ -36,11 +125,11 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 
-.publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
+.publications ol.bibliography li { min-height: 30px; margin-bottom: 0.5rem; }
 
 .publications ol.bibliography li .abbr { height: 8rem; margin-bottom: 0.5rem; }
 
-.publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; position: absolute; top: 8px; left: 16px; }
+.publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; top: 8px; left: 16px; }
 
 .publications ol.bibliography li .abbr abbr a { color: white; }
 

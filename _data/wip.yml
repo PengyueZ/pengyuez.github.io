@@ -1,9 +1,9 @@
 main:
 
-  - id: 1
+  - id: 3
     title: Stock Overpricing, Managerial Incentives, and Firm Investment
     # authors: 
-    draft: https://www.dropbox.com/scl/fi/2psxx9fksb4r6gz4xl5ph/JMP_housing_supply_Lei_Ma.pdf?rlkey=ussnk5si1wifc1hkaf85v7b3o&dl=0
+    draft: ./assets/files/SO.pdf
     abstract: "This paper examines how managerial compensation structures and market sentiment jointly influence managerial behavior and firm-level investment decisions. Drawing on insights from behavioral and corporate finance, it develops a theoretical framework in which managers, motivated by stock-based compensation and attentive to market expectations, may respond to over-optimistic valuations by increasing investment, even in projects with weak fundamentals, in an effort to signal firm quality. The analysis highlights how information frictions and market sentiment can lead to investment distortions when market valuations deviate from intrinsic value. This framework lays the groundwork for studying firm-level heterogeneity and its role in aggregate misallocation. It also provides a lens through which to interpret episodes of 'irrational exuberance,' such as the dot-com bubble, and offers tools for quantifying their broader macroeconomic effects."
   
 
