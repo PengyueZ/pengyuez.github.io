@@ -16,7 +16,7 @@ I'm also passionate about large language models (LLMs), computer vision, natural
 
 ## Technical Skills
 
-- **Programming & Tools:** Python (PyTorch, Scikit-learn, NumPy, Pandas), SQL, R, Julia, Spark, Git, Linux
+- **Programming & Tools:** Python (PyTorch, Scikit-learn, Pandas), SQL, R, Julia, Spark, Git, Linux
 - **Machine Learning:** Random Forest, XGBoost, SVM, K-Means, Transformers, LoRA, Recommender Systems, VLMs
 - **Data Science & Analytics:** A/B Testing, Causal Inference, Bayesian Methods, MCMC, Time Series
 - **Big Data & Deployment:** FastAPI, Gradio, FAISS, AWS, Docker
@@ -35,7 +35,10 @@ I'm also passionate about large language models (LLMs), computer vision, natural
 
 {% include_relative _includes/publications.md %}
 
-## Project Experience
+## Projects
+
+- **Multi-modal Product Recommendation System with LLaVA**
+- **Dialogue Summarization with LLaMA-2**
 
 ## Teaching
 
