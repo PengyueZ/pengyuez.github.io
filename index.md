@@ -12,6 +12,14 @@ I'm also passionate about large language models (LLMs), computer vision, natural
 
 - **Macroeconomics:** Monetary policy, Heterogeneous agents
 - **Econometrics:** Causal inference, Machine learning applications
+- **Machine Learning:** Vision-language Models
+
+## Technical Skills
+
+- **Programming & Tools:** Python (PyTorch, Scikit-learn, NumPy, Pandas), SQL, R, Julia, Spark, Git, Linux
+- **Machine Learning:** Random Forest, XGBoost, SVM, K-Means, Transformers, LoRA, Recommender Systems, VLMs
+- **Data Science & Analytics:** A/B Testing, Causal Inference, Bayesian Methods, MCMC, Time Series
+- **Big Data & Deployment:** FastAPI, Gradio, FAISS, AWS, Docker
 
 ## Research
 
@@ -26,6 +34,8 @@ I'm also passionate about large language models (LLMs), computer vision, natural
 ## Publications
 
 {% include_relative _includes/publications.md %}
+
+## Project Experience
 
 ## Teaching
 
